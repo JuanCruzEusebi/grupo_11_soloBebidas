@@ -5,12 +5,12 @@ E-commerce dedicado a la venta de bebidas alcoholicas y analcoholicas.
 
 Datos principales:
 
-¿Qué productos o servicios brindará nuestro sitio?: 
-Sitio dedicado a la venta de bebidas y alcoglicas.
+¿Qué productos o servicios brindará nuestro sitio?
+- Sitio dedicado a la venta de bebidas y alcoglicas
 
 
 ¿Quien será nuestro público objetivo?
-Mayores de 18 años y apasionados por la bebida. 
+- Mayores de 18 años y apasionados por la bebida. 
 
 
 Descripción de los integrantes del equipo

@@ -1,48 +1,49 @@
-# grupo_11_soloBebidas
+# Solo Bebidas
 
-E-commerce dedicado a la venta de bebidas alcoholicas y analcoholicas. 
+E-commerce dedicado a la venta de bebidas alcoholicas y analcoholicas.
 
+Nuestro público objetivo son personas mayores de 18 años, apasionados por las bebidas tanto para disfrute personal como para colección.
 
-Datos principales:
+## 👷 Integrantes
 
-¿Qué productos o servicios brindará nuestro sitio?
-- Sitio dedicado a la venta de bebidas y alcoglicas
+**Grupo 11**
 
+- [Juan Cruz Eusebi](https://github.com/JuanCruzEusebi) -> 23 años - GBA - Estudiante
+- [Lucrecia Surballe]() -> 39 años - CABA - Abogada
+- [Luka Drago]() -> 19 años - GBA - Marketing
+- [Joaquin Guzmán](https://github.com/joacoguzmanz) -> 22 años - CABA - Diseñador Web
+- [Sofia Villegas]() -> 35 años - PBA - Diseñadora
 
-¿Quien será nuestro público objetivo?
-- Mayores de 18 años y apasionados por la bebida. 
+## 🔍 Benchmarking
 
+Algunos sitios que usamos para inspirarnos:
 
-Descripción de los integrantes del equipo
-- Juan Cruz Eusebi - 23, GBA - Estudiante
-- Lucrecia Surballe - 39, CABA - Abogada
-- Luka Drago - 19, GBA - Marketing
-- Joaquin Guzman - 22, CABA - Diseñador Web
-- Sofia Villegas - 35, BSAS - Diseñadora
+- [GoBar](https://www.gobar.com.ar/)
+- [BBeraz](https://www.bberaz.com.ar/)
+- [Perfy](https://drinkperfy.com/)
+- [Egiazki](https://www.egiazki.com/fr/)
 
-¿Productos o servicios que ofrecen?
-- Venta online de bebidas alcoholicas y/o analcoholicas.
-- Retiro en tienda.
+## ✒️ UX/UI Design
 
-¿Estética?
-- Minimalista
-- Alta gama
-- Orientada al producto
-- User friendly 
+Buscamos implementar un diseño minimalista centrada en el producto manteniendo una experiencia de usuario fluida.
 
-¿Funciones implementadas?
+### 🎨 Estética general
+
+- Fuente: Gibson
+- Weights: Book, Medium, Semibold
+- Body (`p`) size: 18px
+- Colores:
+  - Black: #212226
+  - White: #F7F9FC
+  - Orange: #FF9340
+
+### 🎯 Funcionalidades a implementar
+
 - Carrito de compras
 - Registro de usuarios
-- Filtro de edad
-- Categorias
-- Busqueda personalizada
-- Carrousel de ofertas
-- Integracion de mercadopago y whatsapp (atencion al cliente)
-- Paquetes personalizados 
-- Review del producto
-
-
-
-
-
-
+- Categorías de productos
+- Barra de busquedas
+- Paquetes de productos en oferta
+- Reviews en los productos
+- Integración de pasarelas de pago
+- Integración de contacto (WhatsApp)

@@ -9,8 +9,6 @@ Nuestro público objetivo son personas mayores de 18 años, apasionados por las 
 **Grupo 11**
 
 - [Juan Cruz Eusebi](https://github.com/JuanCruzEusebi) -> 23 años - GBA - Estudiante
-- [Lucrecia Surballe]() -> 39 años - CABA - Abogada
-- [Luka Drago]() -> 19 años - GBA - Marketing
 - [Joaquin Guzmán](https://github.com/joacoguzmanz) -> 22 años - CABA - Diseñador Web
 - [Sofia Villegas]() -> 35 años - PBA - Diseñadora
 
@@ -30,12 +28,12 @@ Buscamos implementar un diseño minimalista centrada en el producto manteniendo 
 ### 🎨 Estética general
 
 - Fuente: Gibson
-- Weights: Book, Medium, Semibold
+- Weights: Book, Regular, Medium, Semibold
 - Body (`p`) size: 18px
 - Colores:
-  - Black: #212226
-  - White: #F7F9FC
-  - Orange: #FF9340
+  - Black: #111111
+  - White: #F8F8F8
+  - Orange: #FF8426
 
 ### 🎯 Funcionalidades a implementar
 
@@ -47,3 +45,7 @@ Buscamos implementar un diseño minimalista centrada en el producto manteniendo 
 - Reviews en los productos
 - Integración de pasarelas de pago
 - Integración de contacto (WhatsApp)
+
+## 📅 Project Management
+
+Usamos [Trello](https://trello.com/invite/b/KfH7rbQU/c52057c0795c724874100e68cad4f3da/solo-bebidas-grupo-11) para organizar nuestro proyecto.

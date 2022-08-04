@@ -1,0 +1,90 @@
+:root {
+  /* TYPOGRAPHY */
+  --primary-font: 'canada-type-gibson';
+
+  /* Weights */
+  --book: 300;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+
+  /* Sizes */
+  --large-heading: 2.556rem; /* 46px */
+  --med-heading: 2.333rem; /* 42px */
+  --small-heading: 2rem; /* 36px */
+  --xsmall-heading: 1.444rem; /* 26px */
+  --body: 1rem; /* 18px */
+  --small-body: 0.778rem; /* 14px */
+  --buttons: 0.778rem;
+
+  /* Line-heights */
+  --lh-lg-heading: 1.13;
+  --lh-med-heading: 1.14;
+  --lh-sm-heading: 1.11;
+  --lh-xs-heading: 1.23;
+  --lh-body: 1.33;
+  --lh-buttons: 1.14;
+
+  /* COLOURS */
+
+  /* Main */
+  --orange: #ff8426;
+  --cream: #f8f8f8;
+  --blue: #196cff;
+
+  /* Neutrals */
+  --white: #ffffff;
+  --black: #111111;
+
+  /* States */
+  --success: #16a34a;
+  --error: #dc2626;
+  --disabled: #94a3b8;
+
+  /* EFFECTS */
+
+  /* Shadows */
+  --main-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  /* BREAKPOINTS */
+  /*
+  sm: 640px
+  md: 768px
+  lg: 1024px
+  xl: 1280px
+  xxl: 1536px
+  */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--body);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}

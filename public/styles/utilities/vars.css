@@ -9,13 +9,13 @@
   --semibold: 600;
 
   /* Sizes */
-  --large-heading: 2.556rem; /* 46px */
-  --med-heading: 2.333rem; /* 42px */
-  --small-heading: 2rem; /* 36px */
-  --xsmall-heading: 1.444rem; /* 26px */
-  --body: 1rem; /* 18px */
-  --small-body: 0.778rem; /* 14px */
-  --buttons: 0.778rem;
+  --large-heading: 2.875rem; /* 46px */
+  --med-heading: 2.625rem; /* 42px */
+  --small-heading: 2.25rem; /* 36px */
+  --xsmall-heading: 1.5rem; /* 24px */
+  --body: 1.125rem; /* 18px */
+  --small-body: 0.875rem; /* 14px */
+  --buttons: 0.875rem;
 
   /* Line-heights */
   --lh-lg-heading: 1.13;
@@ -61,10 +61,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  font-size: var(--body);
 }
 
 body {

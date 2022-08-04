@@ -1,0 +1,26 @@
+{
+  "name": "grupo_11_solobebidas",
+  "version": "1.0.0",
+  "description": "E-commerce dedicado a la venta de bebidas alcoholicas y analcoholicas.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCruzEusebi/grupo_11_soloBebidas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanCruzEusebi/grupo_11_soloBebidas/issues"
+  },
+  "homepage": "https://github.com/JuanCruzEusebi/grupo_11_soloBebidas#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,22 @@
+@import url('./vars.css');
+
+/* Buttons */
+
+.btn {
+  font-size: var(--buttons);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.444rem;
+  line-height: var(--lh-buttons);
+  font-weight: var(--regular);
+}
+
+.btn--main {
+  background-color: var(--orange);
+  color: var(--black);
+}
+
+.btn--form {
+  background-color: var(--blue);
+  color: var(--white);
+}

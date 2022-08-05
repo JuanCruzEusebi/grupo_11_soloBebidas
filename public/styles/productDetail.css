@@ -1,1 +1,23 @@
 @import url('./utilities/utilities.css');
+@import url('./utilities/header.css');
+@import url('./utilities/footer.css');
+
+.product__image {
+  margin-bottom: 2.5rem;
+}
+
+.product__image img {
+  max-height: 20rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+.accordeon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--small-body);
+  font-weight: var(--regular);
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}

@@ -3,6 +3,7 @@
   --primary-font: 'canada-type-gibson';
 
   /* Weights */
+  --light: 200;
   --book: 300;
   --regular: 400;
   --medium: 500;
@@ -35,6 +36,8 @@
   /* Neutrals */
   --white: #ffffff;
   --black: #111111;
+  --grey: #808080;
+  --light-grey: #d9d9d9;
 
   /* States */
   --success: #16a34a;

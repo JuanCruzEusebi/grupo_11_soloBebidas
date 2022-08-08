@@ -1,0 +1,79 @@
+@import url('./utilities/utilities.css');
+@import url('./utilities/header.css');
+@import url('./utilities/footer.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main__form-container {
+    margin: 3em auto;
+    border-radius: 20px;
+    width: 90vw;
+    background-color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__heading > h1 {
+    padding-top: 0.2em;
+    padding-bottom: 0.4em;
+    font-size: var(--med-heading);
+    font-weight: 500;
+}
+
+.form__inputs-container {
+    width: 100%;
+}
+
+.form-inputs  div {
+    margin:1em;
+}
+.input {
+    display: flex;
+    flex-direction: column; 
+    padding: 7px;
+}
+
+.input label {
+    font-size: var(--body);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.input > input {
+    border: none;
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 7px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+.checkbox > input {
+   width: 20%;
+   border: none;
+}
+.checkbox > label {
+    text-transform: none;
+    margin: 10px 1.2rem;
+    font-size: var(--small-body);
+}
+.create-account-button > button {
+    color: white;
+    background-color: var(--blue);
+    border: none;
+    padding: 1rem;
+    border-radius: 7px;
+}
+.alternative-login {
+    color: black;
+    margin-bottom: 25px;
+    font-size: var(--small-body);
+}
+

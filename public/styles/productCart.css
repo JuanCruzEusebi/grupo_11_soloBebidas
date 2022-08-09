@@ -1,0 +1,69 @@
+@import url('./utilities/utilities.css');
+@import url('./utilities/header.css');
+@import url('./utilities/footer.css');
+
+.cart__title {
+  font-size: var(--med-heading);
+  font-weight: var(--regular);
+  line-height: 1.13;
+  margin-bottom: 2rem;
+}
+
+.cart-item {
+  border: 1px solid var(--black);
+  padding: 1.25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cart-item__icon {
+  font-size: 24px;
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+.cart-item__image {
+  width: 50%;
+}
+
+.cart-item__image img {
+  max-height: 7.5rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+.cart-item__title {
+  font-size: var(--xsmall-heading);
+  font-weight: var(--medium);
+  line-height: var(--lh-xs-heading);
+  margin-bottom: 2rem;
+}
+
+.cart-item__price {
+  font-size: var(--xsmall-heading);
+  font-weight: var(--regular);
+  line-height: var(--lh-xs-heading);
+  margin-bottom: 1.5rem;
+}
+
+.cart-item__single-price {
+  font-size: var(--small-body);
+  font-weight: var(--book);
+  line-height: var(--lh-buttons);
+  color: var(--grey);
+  margin-bottom: 1rem;
+}
+
+.cart-item__select {
+  font-size: var(--buttons);
+  font-weight: var(--regular);
+  line-height: var(--lh-buttons);
+  background-color: var(--light-grey);
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+  cursor: pointer;
+}

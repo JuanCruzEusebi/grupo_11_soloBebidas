@@ -113,7 +113,7 @@
   }
 
   .cards__container {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-template-rows: 1fr;
     justify-items: stretch;
     gap: 30px;
@@ -127,4 +127,4 @@
     justify-items: stretch;
     gap: 30px;
   }
-} ;
+}

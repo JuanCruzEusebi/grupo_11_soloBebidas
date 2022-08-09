@@ -62,6 +62,7 @@
   border: none;
   border-radius: 5px;
   padding: 0.8rem;
+  cursor: pointer;
 }
 
 .product__description {
@@ -73,7 +74,6 @@
 @media only screen and (min-width: 1280px) {
   .product {
     display: flex;
-    /* gap: 100px; */
   }
 
   .product__image {

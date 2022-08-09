@@ -53,29 +53,42 @@
 .card {
   background-color: var(--white);
   color: var(--black);
-  border-radius: 5px;
   box-shadow: var(--main-shadow);
+  padding: 2.5rem 1.25rem;
+  border-radius: 5px;
   text-align: center;
+  /* flex: 1; */
 }
 
 .card__title {
   font-weight: var(--semibold);
   font-size: var(--xsmall-heading);
   line-height: var(--lh-sx-heading);
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.9rem;
+}
+
+.card__image {
+  margin-bottom: 1.9rem;
+}
+
+.card__image img {
+  max-height: 18rem;
+  width: auto;
+  margin: 0 auto;
 }
 
 .card__price {
   font-weight: var(--semibold);
-  font-size: var(--body);
+  font-size: var(--xsmall-heading);
   line-height: var(--lh-body);
   margin-bottom: 1.25rem;
 }
 
 .card__cta {
+  display: block;
   font-weight: var(--regular);
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
 }
 
 @media only screen and (min-width: 768px) {

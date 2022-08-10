@@ -1,0 +1,136 @@
+@import url('./utilities/utilities.css');
+@import url('./utilities/header.css');
+@import url('./utilities/footer.css');
+
+
+
+.main {
+   background-color: var(--cream); 
+   max-width: 100vw;
+   overflow-x: hidden;
+}
+
+.main__banner-container {
+    width: 100vw;
+    height: 90vh;
+}
+
+.banner__img-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner__img-container img {
+    width: 70%;
+    height: 80%;
+}
+
+.banner__heading-container {
+    padding: 20px 20px;
+    font-size: var(--small-heading);
+    text-align: center;
+}
+
+.banner__button-container {
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+/* mas vendidos */
+
+.mas-vendidos-container {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+.mas-vendidos-container div {
+    margin-bottom: 20px;
+}
+
+
+
+.mas-vendidos-heading {
+    margin-top: 40px;
+    padding: 20px 20px;
+    font-size: var(--small-heading);
+    text-align: center;
+}
+
+/* propaganda -------- */
+
+.propaganda-container {
+    margin-top: 25px;
+    margin-bottom: 150px;
+    background-color: white;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.propaganda__img-container {
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.propaganda__img-container > img {  
+    object-fit: cover;
+    width: 330px;
+    height: 330px;
+    border-radius: 7px;
+}
+
+.propaganda__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    padding: 20px 30px;
+    height: 50%;
+    text-align: center;
+}
+.propaganda__text-box h3 {
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+.propaganda__text-box p {
+    line-height: 1.2;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .section {
+      padding: 6.25rem 3.75rem;
+    }
+  
+    .section--header {
+      padding: 0 3.75rem 6.25rem;
+    }
+  
+    .section__title {
+      font-size: var(--med-heading);
+      line-height: var(--lh-med-heading);
+    }
+  }
+  
+  @media only screen and (min-width: 1280px) {
+    .section {
+      padding: 12.5rem 7.5rem;
+    }
+  
+    .section--header {
+      padding: 5rem 7.5rem 6.25rem;
+    }
+  }
+
+

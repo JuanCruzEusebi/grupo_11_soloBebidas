@@ -44,6 +44,10 @@
 .btn--main {
     max-width: 340px;
 }
+
+.banner__heading-container h1 {
+    font-size: 3rem;
+}
 /* mas vendidos */
 
 .mas-vendidos-container {
@@ -68,8 +72,8 @@
     max-width: 300px;
     min-width: 300px;
     margin-right: 10px; 
-     margin-left: 10px; 
-     margin: auto;
+    margin-left: 10px; 
+    margin: auto;
 }
 .card-container {
     width: 100%;
@@ -81,10 +85,11 @@
     flex-wrap: wrap;
 }
 
+
 /* propaganda -------- */
 
 .propaganda-container {
-    margin-bottom: 150px;
+    margin-bottom: 130px;
     margin-top: 25px;
     background-color: white;
     height: 80vh;
@@ -103,10 +108,11 @@
     /* width: 85%;
     height: 100%;  */
     max-width: 600px;
-    width: 330px;
-    height: 330px; 
+     width: 230px;
+    height: 230px;  
     border-radius: 7px;
 }
+
 
 .propaganda__text-box {
     display: flex;
@@ -115,7 +121,7 @@
     align-items: center;
     background-color: var(--orange);
     padding: 30px 30px;
-    height: 45%;
+    height: 60%;
     text-align: center;
 }
 .propaganda__text-box h3 {
@@ -134,7 +140,8 @@
 
 /* colecciones ----------*/
 
-.colecciones-container {
+.colecciones-container { 
+    padding-top: 90px;   
     width: 100%;
     height: auto;
     display: flex;
@@ -176,6 +183,7 @@
 }
 
 .colecciones-container-main {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -218,7 +226,7 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -253,6 +261,8 @@
     .propaganda-container {
         height: 35%;
         width: 100%;  
+        margin-bottom: 20px;
+        padding-top: 0px;   
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -265,6 +275,10 @@
     }
     .shipping-container {
         flex-direction: row;
+    }
+    .colecciones-container {
+    padding-top: 70px;   
+
     }
 
   }
@@ -302,6 +316,22 @@
         line-height: 1.2;
         font-weight: 500;
         letter-spacing: 2px;
+    }
+    .propaganda-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .propaganda__img-container > img {
+        width: 450px;
+        height: 450px;
+        margin-left: 150px;
+    }
+    .propaganda__text-box {
+        position: relative;
+        right: 100px;
+        width: 40%;
     }
 
   }

@@ -7,23 +7,21 @@
 .main {
    background-color: var(--cream); 
    max-width: 100vw;
-   overflow-x: hidden;
 }
 
 .main__banner-container {
-    width: 100vw;
-    height: 90vh;
+    width: 100vw;    
 }
 
 .banner__img-container {
     width: 100%;
-    height: 50%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .banner__img-container img {
-    width: 70%;
+    width: 50%;
     height: 80%;
 }
 
@@ -57,14 +55,15 @@
     margin-top: 40px;
     padding: 20px 20px;
     font-size: var(--small-heading);
-    text-align: center;
+    text-align: left;
+    width: 100%;
 }
 
 /* propaganda -------- */
 
 .propaganda-container {
+    margin-bottom: 250px;
     margin-top: 25px;
-    margin-bottom: 150px;
     background-color: white;
     height: 80vh;
     width: 100vw;
@@ -103,7 +102,96 @@
     line-height: 1.2;
 }
 
+/* colecciones ----------*/
 
+.colecciones-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colecciones_heading {
+    font-size: var(--small-heading);
+    text-align: left;
+    padding: 20px;
+}
+.colecciones__promotion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}  
+
+.colecciones_img > img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+}
+.colecciones_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.colecciones_description h3 {
+    padding-bottom: 10px;
+}
+
+/* Envios ---------------- */
+
+.shipping-container {
+    margin-top: 45px;
+    margin-bottom: 75px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.envios-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.envios-container i {
+    font-size: var(--large-heading);
+    padding-bottom: 25px;
+}
+.envios-container p {
+    font-size: var(--xsmall-heading);
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+
+.pagos-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.pagos-container i {
+    font-size: var(--large-heading);
+    padding-bottom: 25px;
+}
+.pagos-container p {
+    font-size: var(--xsmall-heading);
+    line-height: 1.3;
+    font-weight: 700;
+
+
+}
 
 
 

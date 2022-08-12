@@ -48,6 +48,12 @@
 .banner__heading-container h1 {
     font-size: 3rem;
 }
+.banner__heading-container {
+    margin-top: 25px;
+}
+.banner__heading-container br {
+    display: none;
+}
 /* mas vendidos */
 
 .mas-vendidos-container {
@@ -75,6 +81,7 @@
     margin-left: 10px; 
     margin: auto;
 }
+
 .card-container {
     width: 100%;
     margin: auto;
@@ -142,13 +149,13 @@
 
 .colecciones-container { 
     padding-top: 90px;   
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .colecciones_heading {
     font-size: var(--small-heading);
@@ -171,6 +178,8 @@
     height: 300px;
     border-radius: 7px;
 }
+
+
 .colecciones_description {
     display: flex;
     flex-direction: column;
@@ -193,8 +202,8 @@
 /* Envios ---------------- */
 
 .shipping-container {
-    margin-top: 45px;
-    padding-bottom: 35px;
+    padding-bottom: 75px;
+    margin-top: 75px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -202,8 +211,12 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.shipping-container div {
+    padding: 25px;
+}
 .envios-container {
     width: 40%;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -222,8 +235,9 @@
 }
 
 .pagos-container {
-    padding-bottom: 55px;
+    padding-bottom: 55px; 
     width: 40%;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -238,8 +252,6 @@
     font-size: var(--xsmall-heading);
     line-height: 1.3;
     font-weight: 700;
-
-
 }
 
 
@@ -275,15 +287,20 @@
     }
     .shipping-container {
         flex-direction: row;
+        justify-content: space-evenly;
     }
     .colecciones-container {
-    padding-top: 70px;   
-
+     padding-top: 70px;   
     }
+    .banner__heading-container h1 {
+        font-size: 4rem;
+    }
+
 
   }
   
   @media only screen and (min-width: 1280px) {
+
     .section {
       padding: 12.5rem 7.5rem;
     }
@@ -307,15 +324,19 @@
     .banner__heading-container {
         position: absolute;
         margin: auto;
-        width: 70%;        
-        top: 25vh;    
-        left: 15vw;
+        width: 80%;    
+        top: 0vh; 
+        margin-top: 16%;   
+        left: 10.5vw;
     }
     .banner__heading-container h1 {
         font-size: 7rem;
         line-height: 1.2;
         font-weight: 500;
         letter-spacing: 2px;
+    }
+    .banner__heading-container br {
+        display: block;
     }
     .propaganda-container {
         display: flex;
@@ -333,6 +354,7 @@
         right: 100px;
         width: 40%;
     }
+
 
   }
 

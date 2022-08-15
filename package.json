@@ -2,7 +2,7 @@
   "name": "grupo_11_solobebidas",
   "version": "1.0.0",
   "description": "E-commerce dedicado a la venta de bebidas alcoholicas y analcoholicas.",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "doc": "docs"
   },

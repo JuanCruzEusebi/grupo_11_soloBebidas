@@ -79,3 +79,15 @@
   font-weight: var(--regular);
   margin-bottom: 1.25rem;
 }
+
+.form__field-group__input {
+  padding: 1rem 0rem 1rem 1.25rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 0.7rem;
+}
+
+.form__field-group__input::placeholder {
+  color: var(--light-grey);
+}

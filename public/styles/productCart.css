@@ -73,3 +73,9 @@
   padding: 0.8rem;
   cursor: pointer;
 }
+
+.discount__title {
+  font-size: var(--xsmall-heading);
+  font-weight: var(--regular);
+  margin-bottom: 1.25rem;
+}

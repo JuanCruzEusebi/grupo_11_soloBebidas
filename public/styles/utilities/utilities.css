@@ -23,12 +23,6 @@
   width: 100%;
 }
 
-.btn--discount {
-  background-color: var(--orange);
-  color: var(--black);
-  width: 50%;
-}
-
 .btn--form {
   background-color: var(--blue);
   color: var(--white);

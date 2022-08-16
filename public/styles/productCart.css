@@ -9,6 +9,12 @@
   margin-bottom: 2rem;
 }
 
+.cart__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .cart-item {
   border: 1px solid var(--black);
   padding: 1.25rem;

@@ -40,6 +40,11 @@
   background-color: var(--cream);
 }
 
+.section--discount {
+  background-color: var(--cream);
+  padding: 2.5rem 1.25rem 3.75rem;
+}
+
 .section__title {
   font-size: var(--small-heading);
   line-height: var(--lh-sm-heading);

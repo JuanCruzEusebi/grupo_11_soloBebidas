@@ -18,7 +18,13 @@ app.get('/productCart', (req, res) => {
 });
 
 app.get('/productDetail', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './views/productDetail.html'));
+  let fileName = path.resolve(__dirname, './views/productDetail.html');
+
+  res.sendFile(fileName, (err) => {
+    if (err) {
+      res.status(500).send('It looks like something crashed...');
+    }
+  });
 });
 
 app.get('/register', (req, res) => {

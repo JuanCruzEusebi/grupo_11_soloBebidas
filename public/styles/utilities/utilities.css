@@ -143,4 +143,16 @@
   .section--header {
     padding: 5rem 7.5rem 6.25rem;
   }
+
+  .section--discount {
+    background-color: var(--cream);
+    padding: 0rem 7.5rem 3.75rem;
+    /* padding: 0; */
+  }
+
+  .section--ticket {
+    background-color: var(--light-grey-orange);
+    padding: 1.875rem 2.5rem;
+    margin-bottom: 1.875rem;
+  }
 }

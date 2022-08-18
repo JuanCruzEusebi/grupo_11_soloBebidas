@@ -91,3 +91,91 @@
 .form__field-group__input::placeholder {
   color: var(--light-grey);
 }
+
+.ticket__section__container {
+  background-color: var(--cream);
+  padding: 0 1.25rem 7.5rem;
+}
+
+.ticket__subtotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.875rem;
+  font-size: var(--body);
+  font-weight: var(--book);
+}
+
+.ticket__shipping {
+  margin-bottom: 3rem;
+  font-size: var(--body);
+  font-weight: var(--book);
+}
+
+.shipping__title {
+  margin-bottom: 1rem;
+}
+
+.shipping__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ticket__divider {
+  border-top: 1.2px dashed var(--black);
+}
+
+.ticket__total {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--xsmall-heading);
+  font-weight: var(--regular);
+}
+
+.total__price__container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+}
+
+.total__price__caption {
+  font-size: var(--small-body);
+  font-weight: var(--book);
+}
+
+.ticket__buttons__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ticket__section__container {
+    padding: 0 3.75rem 7.5rem;
+  }
+
+  .ticket__buttons__container {
+    width: 50%;
+  }
+
+  .form__field-group {
+    display: flex;
+    gap: 10px;
+  }
+
+  .form__field-group__input {
+    margin: 0;
+    width: 50%;
+  }
+
+  .form__field-group button {
+    width: 30%;
+  }
+
+  .form__field-group label {
+    display: none;
+  }
+}

@@ -136,9 +136,40 @@
         </form>
     </section>
 
-    <section class="section--discount">
+    <div class="ticket__section__container">
+        <section class="section--ticket">
+            <div class="ticket__subtotal">
+                <p class="subtotal__title">Subtotal</p>
+                <p class="subtotal__price">$12000</p>
+            </div>
+            <div class="ticket__shipping">
+                <p class="shipping__title">Envío</p>
+                <form action="#" method="get" class="shipping__form">
+                    <div class="shipping__option">
+                        <input type="radio" name="shipping" id="standardShipping" value="standardShipping">
+                        <label for="standardShipping">Envío normal (Gratis)</label>
+                    </div>
+                    <div class="shipping__option">
+                        <input type="radio" name="shipping" id="expressShiping" value="expressShipping">
+                        <label for="expressShiping">Envío express ($200.00)</label>
+                    </div>
+                </form>
+            </div>
+            <hr class="ticket__divider">
+            <div class="ticket__total">
+                <p class="total__title">Total</p>
+                <div class="total__price__container">
+                    <p class="total__price">$12200.00</p>
+                    <p class="total__price__caption">IVA incluído</p>
+                </div>
+            </div>
+        </section>
 
-    </section>
+        <div class="ticket__buttons__container">
+            <button type="submit" class="btn btn--main">Realizar pago</button>
+            <a href="/" class="btn btn--secondary">Seguir comprando</a>
+        </div>
+    </div>
 
     <footer class="footer">
         <a href="/" class="footer__logo">SoloBebidas</a>

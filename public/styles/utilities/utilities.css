@@ -28,6 +28,13 @@
   color: var(--white);
 }
 
+.btn--secondary {
+  background-color: transparent;
+  border: 1px solid var(--black);
+  color: var(--black);
+  width: 100%;
+}
+
 /* Sections */
 
 .section {
@@ -43,6 +50,12 @@
 .section--discount {
   background-color: var(--cream);
   padding: 0rem 1.25rem 3.75rem;
+}
+
+.section--ticket {
+  background-color: var(--light-grey-orange);
+  padding: 1.875rem 1.25rem;
+  margin-bottom: 1.875rem;
 }
 
 .section__title {
@@ -103,6 +116,17 @@
 
   .section--header {
     padding: 0 3.75rem 6.25rem;
+  }
+
+  .section--discount {
+    background-color: var(--cream);
+    padding: 0rem 3.75rem 3.75rem;
+  }
+
+  .section--ticket {
+    background-color: var(--light-grey-orange);
+    padding: 1.875rem 2.5rem;
+    margin-bottom: 1.875rem;
   }
 
   .section__title {

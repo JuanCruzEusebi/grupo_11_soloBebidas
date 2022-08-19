@@ -8,7 +8,6 @@ const publicPath = path.resolve(__dirname, './public');
 app.use(express.static(publicPath));
 
 app.set('view engine', 'ejs');
-app.set('views', './src/views');
 
 app.listen(PORT, () => console.log(`Server running at port ${PORT}`));
 

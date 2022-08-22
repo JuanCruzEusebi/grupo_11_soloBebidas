@@ -1,6 +1,9 @@
 const express = require('express');
 const path = require('path');
 const PORT = process.env.PORT || 3000;
+const usersRoutes = require('./src/routes/users');
+const mainRoutes = require('./src/routes/main');
+const productRoutes = require('./src/routes/products')
 
 const app = express();
 
@@ -11,32 +14,24 @@ app.set('view engine', 'ejs');
 
 app.listen(PORT, () => console.log(`Server running at port ${PORT}`));
 
-app.get('/', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './src/views/index.html'));
-});
+//main routes --------------------------
 
-app.get('/productCart', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './src/views/productCart.html'));
-});
+app.use('/', mainRoutes);
 
-app.get('/productDetail', (req, res) => {
-  let fileName = path.resolve(__dirname, './src/views/productDetail.html');
+// Product routes -----------------------
 
-  res.sendFile(fileName, (err) => {
-    if (err) {
-      res.status(500).send('It looks like something crashed...');
-    }
-  });
-});
 
-app.get('/register', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './src/views/register.html'));
-});
+app.use('/', productRoutes)
+app.use('/', productRoutes)
 
-app.get('/login', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './src/views/login.html'));
-});
+
+// user routes ----------------------------------
+
+app.use('/', usersRoutes)
+
+app.use('/', usersRoutes)
 
 app.post('/newUser', (req, res) => {
   res.sendFile(path.resolve(__dirname, './src/views/newUser.html'));
 });
+

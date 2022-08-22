@@ -149,7 +149,7 @@
 
 .colecciones-container { 
     padding-top: 90px;   
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -171,6 +171,7 @@
     margin-bottom: 35px;
     margin: 0px 12px;
 }  
+
 
 .colecciones_img > img {
     object-fit: cover;
